@@ -9,6 +9,13 @@ From: phusion/baseimage:0.10.2
 
 %post
 
+
+    mkdir /soft
+	mkdir /work
+	mkdir /user1
+	mkdir /user2
+	mkdir /tmp3
+    
     add-apt-repository ppa:deadsnakes/ppa
     apt-get update && \
 	apt-get upgrade -y && \
