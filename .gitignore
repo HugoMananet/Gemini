@@ -1,4 +1,5 @@
 *.sif
+*.simg
 *.gz
 *.tar.gz
 *.vcf
